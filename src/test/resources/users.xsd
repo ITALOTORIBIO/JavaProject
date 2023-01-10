@@ -1,0 +1,20 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="UserObject">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:int" name="Id"/>
+                <xs:element type="xs:string" name="Email"/>
+                <xs:element type="xs:string" name="FulName"/>
+                <xs:element type="xs:byte" name="TimeZone"/>
+                <xs:element type="xs:string" name="IsProUser"/>
+                <xs:element type="xs:int" name="DefaultProjectId"/>
+                <xs:element type="xs:string" name="AddItemMoreExpanded"/>
+                <xs:element type="xs:string" name="EditDueDateMoreExpanded"/>
+                <xs:element type="xs:byte" name="ListSortType"/>
+                <xs:element type="xs:byte" name="FirstDayOfWeek"/>
+                <xs:element type="xs:byte" name="NewTaskDueDate"/>
+                <xs:element type="xs:string" name="TimeZoneId"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
